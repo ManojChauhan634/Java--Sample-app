@@ -9,13 +9,14 @@ trigger:
 variables:
 
   # Azure Resource Manager connection created during pipeline creation
-  azureSubscription: '076c9449-f0fe-463d-8570-6daed2c27065'
+
+  azureSubscription: 'Free Trial(b422691f-522d-4714-8469-bcb3ee3fe430)'
 
   # Web app name
-  webAppName: 'mySuperAwesomeApp'
+  webAppName: 'MyJavaSuperApp'
 
   # Environment name
-  environmentName: 'mySuperAwesomeApp'
+  environmentName: 'MyJavaSuperApp'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
